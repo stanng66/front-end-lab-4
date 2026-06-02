@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// Add the following line to your src/index.js:
+import HelloWorld from './HelloWorld';
 
+// Modify the render method to be like the following:
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HelloWorld />
   </React.StrictMode>
 );
 
