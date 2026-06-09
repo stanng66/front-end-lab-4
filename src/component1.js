@@ -13,7 +13,7 @@ function component1() {
     return (
         <div>
             <h1>Lab 4 - Stanley Nguyen</h1>
-            <h2>Component 1</h2>
+            <h2>Component 1 (function)</h2>
             <p>This is the first component.</p>
         </div>
     );
